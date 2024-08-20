@@ -26,6 +26,9 @@ The
 
 Contact Information
 ------
-For 
-
+ You can also contact me via:
+ * [Email](zz.zaamani@gmail.com)
+ * [Phone](tel:+989190345701)
+ * [LinkedIn](https://www.linkedin.com/in/zz-zahra-zamani)
+ * [Researchgate](https://www.researchgate.net/profile/Zahra-Zamani-18) 
 
