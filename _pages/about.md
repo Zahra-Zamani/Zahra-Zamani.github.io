@@ -18,17 +18,63 @@ Like
 
 Tools & Softwares
 ======
-1. Registe
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Programming Language</th>
+      <th style="text-align: center;">Proficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MATLAB</td>
+      <td style="width: 90%;text-align: center; background-color: #999900">30%</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td style="width: 90%;text-align: center; background-color: #3eba25">70%</td>
+    </tr>
+    <tr>
+      <td>GAMS</td>
+      <td style="width: 40%;text-align: center; background-color:  #d1f100">60%</td>
+    </tr>
+    <tr>
+      <td>AutoCAD</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">60%</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">60%</td>
+    </tr>
+    <tr>
+      <td>SQL</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">60%</td>
+    </tr>
+    <tr>
+      <td>Microsoft Excel</td>
+      <td style="width: 40%;text-align: center; background-color: #ffba00">50%</td>
+    </tr>
+  </tbody>
+</table>
 
 Hobbies
 ------
-The 
+* Gymnastics
+* Chess
+* Playing FIFA 
+* Running
 
 Contact Information
 ------
- You can also contact me via:
- * [Email](zz.zaamani@gmail.com)
- * [Phone](tel:+989190345701)
- * [LinkedIn](https://www.linkedin.com/in/zz-zahra-zamani)
- * [Researchgate](https://www.researchgate.net/profile/Zahra-Zamani-18) 
+<div class="col-md-6">
+      <p>
+        You can also contact me by:
+      </p>
+      <ul>
+        <li><a href="mailto:zz.zaamani@gmail.com">Email</a></li>
+        <li><a href="tel:+989190345701">Phone</a></li>
+        <li><a href="https://www.linkedin.com/in/zz-zahra-zamani">LinkedIn</a></li>
+        <li><a href="https://www.researchgate.net/profile/Zahra-Zamani-18">ResearchGate</a></li>
+      </ul>
+</div>
 
