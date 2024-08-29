@@ -20,9 +20,27 @@ Work experience
   * Github University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
+
+Language Skills
+======
+* IELTS
+  * Overall: **?**  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date: &nbsp;&nbsp;&nbsp;&nbsp;    ?th September 2024  
+* GRE
+  * Overall: **323**  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date: &nbsp;&nbsp;&nbsp;&nbsp;    16th Oct. 2023
+
+Notable Courses
+------
+* Convex Optimization   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Numerical Methods in Electromagnetics  |
+* Microwave-1   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Advanced Electromagnetics              |
+
+* Engineering Mathematics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Advanced Engineering Mathematics       |
+* Math-1     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Linear Algebra                         |
+* Machine Learning                     |  Neural Networks                        |
+* Blind Source Separation   &nbsp;          |  Linear Control Systems                 |
   
 Skills
 ======
+
 
 
 Publications
@@ -31,4 +49,40 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+CV File
+=======
 
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>CV | Zahra Zamani</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="ABOUT" />
+<meta name="author" content="Zahra Zamani" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content=" Personal website of Zahra Zamani" />
+<meta property="og:description" content="Personal website of Zahra Zamani" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Zahra Zamani" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ABOUT" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Zahra Zamani"},"description":"Personal website of Zahra Zamani","headline":"ABOUT","name":"Zahra Zamani","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+<!--<link rel="stylesheet" href="/assets/css/style.css">-->
+  <link rel="stylesheet" href="/assets/css/github-markdown.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Zahra Zamani" />
+</head>
+<body class="w3-content" style="max-width:1600px">
+
+ <div align="center"> 
+<p><a href="https://raw.githubusercontent.com/zahra-zamani/zahra-zamani.github.io/8cce2bb07fd8515d53a87ec5ccd4a33793712df5/files/Zahra_Zamani_CV.pdf" class="w3-button w3-white w3-border w3-border-indigo w3-round-large w3-text-blue">Download My CV</a> </p>
+ </div>
+  
+</body>  
+</html>
