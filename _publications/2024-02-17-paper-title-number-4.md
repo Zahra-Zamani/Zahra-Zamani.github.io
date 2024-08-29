@@ -2,7 +2,7 @@
 title: "A Different Look at Quality Control with a Focus on the Packaging Industry"
 collection: publications
 permalink: /publication/2023-March-Conference
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This paper is about a new look into packaging industry in Iran'
 date: 2023-03-15
 venue: '9th Newly Constituted National Congress on Management and engineering industries Emphasizing Competence and Intelligence of Competition'
 paperurl: 'http://academicpages.github.io/files/A_Different_Look_at_Quality_Control_with_a_Focus_on_the_Packaging_Industry.pdf'
