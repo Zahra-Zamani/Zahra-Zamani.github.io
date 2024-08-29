@@ -5,7 +5,7 @@ permalink: /publication/2023-March-Conference
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-03-15
 venue: '9th Newly Constituted National Congress on Management and engineering industries Emphasizing Competence and Intelligence of Competition'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'http://academicpages.github.io/files/A_Different_Look_at_Quality_Control_with_a_Focus_on_the_Packaging_Industry.pdf'
 citation: 'Z. Zamani, A. Hasanzadeh (2023). &quotA Different Look at Quality Control with a Focus on the Packaging Industry;&quot; <i>9th Newly Constituted National Congress on Management and engineering industries Emphasizing Competence and Intelligence of Competition</i>.'
 ---
 
