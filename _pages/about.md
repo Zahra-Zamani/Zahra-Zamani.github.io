@@ -9,12 +9,23 @@ redirect_from:
 
 Biography
 ======
-I'm a Master Student studying Optimization in Industrial Engineering at the Iran University of Science and Technology since 2022.  Previously, I graduated from [the University of Tehran](https://ut.ac.ir/en) in Industrial Engineering which took me 8 semesters (4 years) to complete. 
+I'm a Master Student studying Optimization & Data Analysis in Industrial Engineering at the Iran University of Science and Technology since 2022.  Previously, I graduated from [the University of Tehran](https://ut.ac.ir/en) in Industrial Engineering which took me 8 semesters (4 years) to complete. 
 
 
 Research Interests
 ======
-Like 
+ * Supply Chain Management
+ * Data Science
+ * Statistical Quality Control
+ * Optimization
+ * Project Management
+ * Medical Data Analysis
+ * Decision Science
+ * Operations Research
+ * Quality Control
+ * Cost Analysis
+ * Multi-Objective Obtimization
+ * Machine Learning / Neural Networks
 
 Tools & Softwares
 ======
@@ -32,7 +43,7 @@ Tools & Softwares
     </tr>
     <tr>
       <td>Python</td>
-      <td style="width: 90%;text-align: center; background-color: #3eba25">70%</td>
+      <td style="width: 90%;text-align: center; background-color: #ffba00">50%</td>
     </tr>
     <tr>
       <td>GAMS</td>
