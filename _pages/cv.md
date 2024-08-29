@@ -16,10 +16,10 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2022: Quality Assurance Role
+  * Speed Polymer Company
+  * Duties includes: Quality Analysis over manufacturing line of GASKET
+  * Supervisor: Head of Production Department
 
 Language Skills
 ======
@@ -38,10 +38,6 @@ Notable Courses
 * Marketing Fundamentals         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            |  Fundamentals of Management & Organizational Theory                        |
 * Planning & Control of production and assets   &nbsp;          |  Principles of Accounting & Cost Management                 |
   
-Skills
-======
-
-
 
 Publications
 ======
