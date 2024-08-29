@@ -9,7 +9,7 @@ redirect_from:
 
 Biography
 ======
-I'm a Master Student studying Optimization & Data Analysis in Industrial Engineering at the Iran University of Science and Technology since 2022.  Previously, I graduated from [the University of Tehran](https://ut.ac.ir/en) in Industrial Engineering which took me 8 semesters (4 years) to complete. 
+I'm a Master Student studying Optimization & Data Analysis in Industrial Engineering at the [Iran University of Science and Technology](https://www.iust.ac.ir/en) since 2022.  Previously, I graduated from [the University of Tehran](https://ut.ac.ir/en) in Industrial Engineering which took me 8 semesters (4 years) to complete. 
 
 
 Research Interests
