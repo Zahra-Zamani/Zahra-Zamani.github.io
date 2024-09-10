@@ -21,7 +21,7 @@ repository               : "zahra-zamani/zahra-zamani.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.PNG"
   name             : "Zahra Zamani"
   pronouns         : # example: "she/her"  
   bio              : "Inustrial Engineering at IUST"
