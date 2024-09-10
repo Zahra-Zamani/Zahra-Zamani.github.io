@@ -1,0 +1,576 @@
+---
+layout: archive
+title: "Projects"
+permalink: /Projects/
+author_profile: false
+redirect_from:
+  - /Projects.html
+---
+{% include base_path %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="github.io">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="Projects Description-Zahra Zamani">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My-Projects</title>
+</head>
+
+
+
+<body>
+  
+<div class="sidenav"  style="background-image: url('/images/Back_Ground_Image.jpg');   background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+  <a href="https://zahra-zamani.github.io/">Home</a>
+  <a href="https://github.com/zahra-zamani/MATLAB_Projects">MATLAB Repo.</a>
+  <a href="https://github.com/zahra-zamani/Python_Projects/tree/main">Python Repo.</a>
+  <a href="#Heart_Data">Undergrad. Project</a>
+</div>
+  
+<h2 style="text-align:center">Projects at a Glance</h2>
+<!-- Project 1 --> <!-- Neural Network -->
+<div class="container" style="background-image: url('/images/Back_Ground_Image.jpg');   background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <a href="#MLP_CLassification"><img src="/images/Traffic_Map_Sensor_Movement.jpg" style="width:100%"></a>
+  </div>
+ <!-- Project 2 --> <!-- Neural Networks -->
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <a href="#DHN"><img src="/images/Slotted_SIW_Leakage_Waves_2.jpg" style="width:100%"></a>
+  </div>
+<!-- Project 3 --> <!-- Heart-Data -->
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <a href="#Optimization_GD"><img src="/images/Optimization_Curvature_GD_BSS.png" style="width:100%"></a>
+  </div>
+ <!-- Project 4 --> <!-- Sleep-Data -->   
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <a href="#Machine_LAB"><img src="/images/UI_Visual_Diagram.jpg" style="width:100%"></a>
+  </div>
+<!-- Project 5 --> <!-- TOPSIS --> 
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <a href="#Classifier_BSS"><img src="/images/Classifier_Model.png" style="width:100%"></a>
+  </div>
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/images/Traffic_Map_Sensor_Movement.jpg" style="width:100%" onclick="currentSlide(1)" alt="Traffic Map and Violation Detection Sensor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/Slotted_SIW_Leakage_Waves_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Slotted SIW Sensor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/Optimization_Curvature_GD_BSS.png" style="width:100%" onclick="currentSlide(3)" alt="Optimization with GD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/UI_Visual_Diagram.jpg" style="width:100%" onclick="currentSlide(4)" alt="Machine Laboratory">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/Classifier_Model.png" style="width:100%" onclick="currentSlide(5)" alt="Brain Interface Action Classifier">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="/images/Optimized_Array_VS_Uniform_XZ_Plane.png" style="width:100%" onclick="currentSlide(6)" alt="Array Optimization">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/FDTD_Image.jpg" style="width:100%" onclick="currentSlide(7)" alt="Finite Difference Time Domain">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/Quantum_Circuit_Draw.png" style="width:100%" onclick="currentSlide(8)" alt="QML Optimiztion">
+    </div>
+  </div>
+</div>
+
+                                                                                <!-- End of Gallery Section  --> 
+                                                                              <!-- Begining of Toggle Section  --> 
+ 
+                                                                                         <!-- End of Toggle Section  -->
+                                                                                       <!-- Begining of Projects Section  -->  
+<hr class="dotted" style="color: #82d220; height: 10px; background-color: #82d220; ">
+  <div id="Traffic_Sensor">
+  <div style="text-align: center;">
+    <strong> Traffic Movement RF Sensor for Violation Detection </strong>
+  </div>
+  <div align="justify;">
+    <p style="text-align: justify;"> 
+    <em>Have you ever considered any other option for tracking, managing, and controlling roads and streets rather than widely used Traffic Cameras?</em>
+    </p>
+    <p style="text-align: justify;">
+    In Today's world with ever-increasing life speed and demanding life going on, we need to manage the high volume of traffic in the streets smoothly and swiftly. 
+    While considering the data associated with cameras and the processing time of such systems, it is unlikely to be able to handle real-time traffic data and provide a traffic map as a data feed for routing applications available worldwide utilizing their users' traffic data to illustrate traffic volume and suggest optimal routes.
+    If it was 10 years ago we would be happy if we could extract some simple data from Traffic Cameras even after a long period of breathtaking data processing, but by obtaining new options available right now, it is wise to prepare additional methods and devices to address issues around this problem. 
+    </p>
+    <p style="text-align: justify;">
+    With new Chips handling data at such a high rate, we can even obtain data from an RF sensor working at <strong>77GHz</strong> with low costs as a result of commercialized chipsets' technology and mass production.
+    We have this rule of thumb that any system's price rises rapidly as the frequency goes higher and equipment gets more expensive while there are some specific frequencies available that make our high-frequency system affordable and cost reasonably.
+    To obtain enough information from a moving vehicle, we need specific bandwidth and fairly good resolution both in Range and Frequency so that we can estimate the position and velocity of the vehicle accurately. 
+    </p>
+    <p style="text-align: justify;">
+    Adding up all these facts, we can consider RF sensors as the priority to use!
+    At the University of Tehran, we designed and simulated Traffic volume and obtained information from vehicles in MATLAB to implement it in real-world scenarios later. This requires putting the required algorithms available in Machine Learning, Neural Networks, available analytical solutions, and other numerical optimizations together to make this system work properly!
+    Below, there is a <strong>5GHz</strong> R-D Map and its corresponding XY plane available as the result of such simulations:
+      </p>
+    </div>
+                                                                                <!-- Begining of Gifs  --> 
+      <div style="display: flex;">
+        <div style="flex: 45%; padding: 5px">
+          <img src="/images/Detection_RD_MAP_5GHz.gif" alt="R-D Map in 5GHz">
+        </div>
+        <div style="flex: 45%; padding: 5px">
+          <img src="/images/Detection_XY_MAP_5GHz.gif" alt="XY Map in 5GHz">
+        </div>
+      </div>
+</div>  
+
+
+
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="SSIW_Sensor">
+  <div style="text-align: center;">
+    <strong> Slotted Substrate Integrated Waveguide Sensor </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+     The very edge of distant Communication in any system at any location is the System's Sensor providing Telecommunication thanks to Hertz's and Marconi's first Sensors!
+     
+     <em>But why do we have so many different types of Sensors in different shapes and technology in the market?</em> 
+     
+     <em> What is the incentive to provide such a variety of Sensors in the market?</em>
+     </p>
+     <p style="text-align: justify;">
+     It is the very physical constraints and expense that bring us to design and implement different Sensors for different applications. Sensors are specified mostly by some of the limited parameters yet, their materials, technology, and physical state may differ even with equal values in those parameters!
+
+     Consider dipole, Yagi-Uda, Patch Sensor, Reflective Sensor, Horn Sensor, and other widely used types of Sensor. When starting this project, we were faced with different options to use for autonomous vehicles' RF sensors, and I decided to choose reasonable ones and compare those simulated to find the best!
+
+     One of the options was to start from a Waveguide, put a slot on it, and design a leaky-wave Sensor. 
+     </p>
+     <p style="text-align: justify;">
+     However, with limited space and available area for the Sensor, I decided to continue the project by designing a conformal annular slotted waveguide Sensor. 
+     Following design rules and simulation, the result was satisfying and took us to the next level which was to turn this bulky expensive design into a low profile cheap but still useful Sensor. 
+     This is where I designed and Slotted substrate-integrated Annular Sensor at <strong>77GHz</strong> and simulated this unit in <strong>HFSS</strong>.
+     Below we can see some design steps and output patterns of such a Sensor. 
+     You can also see the presentation of my undergraduate project in this <a href="https://www.aparat.com/v/mVNgA" style=" color: #82d220;">Link</a>.
+       </p>
+   </div>  
+
+                                                                                <!-- Begining of Gifs  --> 
+      <div style="display: flex;">
+        <div style="flex: 45%; padding: 5px">
+          <img src="/images/Annular_SIW_Sensor_Design_HFSS.png" alt="77GHz Annular Slotted SIW Sensor Design">
+        </div>
+        <div style="flex: 45%; padding: 5px">
+          <img src="/images/Annular_SIW_Sensor_S11_HFSS.png" alt="S11 Parameter of ASSIW Sensor">
+        </div>
+      </div>
+</div>
+
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="Optimization_GD">
+  <div style="text-align: center;">
+    <strong> Optimization: Quadratic Cost-Function  </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+       One of the Most impressive Optimization methods that comes in handy when dealing with various types of problems is the Gradient Descent Method Family. 
+       Both the Steepest Descent Method and the Newton Method are illustrated here in a simple problem to show their potential specifically in higher dimensions. 
+     </p>
+     <p style="text-align: justify;">
+       Consider the problem of finding the minimum value of such a function:
+     </p>
+     <p style="text-align: center;">
+       $ f(x) = x_{1}^{2}+x_{2}^{2}-4x_{1}-6x_{2}+13+x_{1}x_{2}  $  
+     </p>
+     <p style="text-align: justify;">
+       We can use Analytical differentiation to find its minimum as far as the function is Convex meaning the local minimum is the same as the global minimum. 
+       Instead, we use GD to find its solution to test this method and visualize the result for better understanding.
+     </p>
+     <p>
+       Below we can see the problem illustration:
+     </p>
+     <div>
+        <figcaption style="text-align: center;">Problem Cost Function</figcaption>
+       <img src="/images/Optimization_Curvature_GD_BSS.png" alt="Problem Cost Function">
+     </div>
+     <p>
+       After Applying GD and Newton we can see their results here:
+     </p>
+       <div style="display: flex;">
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">Newton Method</figcaption>
+          <img src="/images/Newton_GD_Contours.png" alt="Newton Method">
+        </div>
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">Steepest Descent Method</figcaption>
+          <img src="/images/Steepest_Descent_Contours.png" alt="Steepest Descent Method">
+        </div>
+      </div>
+     For more details, visit this <a href="https://github.com/MohammadReza-Arani/MATLAB_Projects/tree/main/BSS/Hw1_Sparse_Dictionary_Learning_%26_Optimization" style=" color: #82d220;">Link</a>.
+   </div>
+
+  
+</div>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="Machine_LAB">
+  <div style="text-align: center;">
+    <strong> Implementation of IOT-based Monitoring System in a Machine Lab. </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+       It was the end of the 4th Semester at the University of Tehran and I had pulled my strength together to find a laboratory to gain experience in the summer of 2019. 
+       I ran into one of my professors and while discussing score-related topics around the Electrical Machine Course, 
+       He mentioned that there is an urgent need for an IOT Team to design and implement a Monitoring System at the Machine Lab. in the Electrical Faculty. 
+       I took my chance and applied for this position along with my friends on the Team.  
+     </p>
+     <p style="text-align: justify;">
+       At the end of summer, we learned so much about different <strong>Networking and Monitoring systems, Raspberry-pi and STM32 devices, Python Programming, and UI design with PYQT5</strong>.
+     </p>
+   </div>
+  For more details, visit this <a href="https://mohammadreza-arani.github.io/publication/2010-10-01-paper-title-number-2" style=" color: #82d220;">Link</a>.
+</div>
+
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="Classifier_BSS">
+  <div style="text-align: center;">
+    <strong> Brain-Computer Interface Problem: Action Classification via Machine Learning from EEG </strong>
+  </div>
+   <div align="justify;">
+      <p style="text-align: justify;">
+        Most interesting problems are faced at the end of each semester in the form of Final Projects at the University of Tehran, 
+        but some projects are those that you can apply so much of your knowledge that makes you the happiest when reaching the ultimate result. The BSS Course's final project was one of them.
+      </p>
+      <p style="text-align: justify;">
+        In this project, we deal with a problem arising from a contest looking for an optimal method to classify EEG-recorded signals based on 4 labels consisting of:
+        <ol type="1"> 
+          <li>Movement of Right Finger</li>
+          <li>Movement of Right Arm</li>
+          <li>Movement of Right Leg</li>
+          <li>No Actions</li>
+        </ol>  
+      </p>
+     <p style="text-align: justify;">
+       To address this issue, we designed a classifier as shown below:
+     </p>
+    <figcaption style="text-align: center;">EEG Optimal Classifier</figcaption>
+    <img src="/images/Classifier_Model.png" alt="EEG Classifier">
+    <p style="text-align: justify;">
+       We used a CSP (Common Spatial Pattern) filter and applied an LDA (Linear Discriminator Analysis) classifier in the mapped domain. 
+       By applying these techniques and whitened data, the classifier reaches almost 90% Accuracy in most cases.
+    </p>
+    <figcaption style="text-align: center;">EEG Optimal Classifier Confusion Matrix</figcaption>
+    <img src="/images/BSS_Conf_Classifier.png" alt="EEG Classifier">  
+   </div>
+  For more details, visit this <a href="https://github.com/MohammadReza-Arani/MATLAB_Projects/tree/main/BSS/BSS_Project_Human_Brain_Interface_ECG_Classification" style=" color: #82d220;">Link</a>.
+</div>
+
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="FDTD">
+  <div style="text-align: center;">
+    <strong> Finite Difference Time Domain: Wave Propagation </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+       Numerical Methods in recent years have attracted a lot of attention even in Electromagnetics. The heart of many powerful simulation Tools such as 
+       <strong>HFSS, CST, and COMSOL</strong> is the very Finite Difference Method used to solve Differential equations numerically. 
+       Here we have used FDTD (Finite Difference Time Domain) Method to simulate wave propagation in a closed square with a source within the square and 
+       an obstacle in the middle of the sqaure.    
+     </p>
+     <p style="text-align: justify;">
+        We have used Hard-Boundary Condition in problem geometrical borders when modelling PEC surface.
+     </p>
+   </div>
+        <div style="display: flex;">
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">FDTD with Obstacle</figcaption>
+          <img src="/images/Q3_30_Sadiku_4th_ed_Obstacle.gif" alt="FDTD with Obstacle">
+        </div>
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">FDTD without Obstacle</figcaption>
+          <img src="/images/Q3_30_Sadiku_4th_ed.gif" alt="FDTD without Obstacle">
+        </div>
+      </div>
+  
+  For more details, visit this <a href="https://github.com/MohammadReza-Arani/MATLAB_Projects/tree/main/Numerical_Methods_in_Electrical_Engineering" style=" color: #82d220;">Link</a>.
+</div>  
+
+<!--
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="QML">
+  <div style="text-align: center;">
+    <strong>Quantum Machine Learning & Optimization </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+       In recent years, Quantum Machine Learning methods are implemented inspired by Classical Machine Learning and New Quantum Mechanics view used in 
+       Quantum Computers to solve those problems with quantum nature much faster than classical computers (Sometimes it takes almost forever to solve in classical computers).
+       Even implementation of Classical Neural Networks is possible and common in Quantum Computing nowadays. 
+       The QAOA (Quantum Approximate Optimization Algorithm) is the method used to numerically differentiate Quantum Circuits 
+       to use with classical optimizers (Like Adam) to optimize circuit parameters to get desired output value. 
+       A general view of the quantum computing system can be seen below:
+     </p>
+     <p>
+          <figcaption style="text-align: center;">Quantum Computing</figcaption>
+          <img src="/images/Quantum_Computing.jpg" alt="Quantum Computing">
+     </p>
+     <p style="text-align: justify;">
+    Hamiltonian minimization is a technique for solving problems by finding the lowest energy state of a system. 
+       In quantum computing, this can be done by initializing a quantum system in a superposition of all possible states, 
+       and then gradually changing the Hamiltonian over time. As the Hamiltonian changes, the system will evolve towards the ground state, 
+       which is the state with the lowest energy.
+
+    AQC (Adiabatic Quantum Computing) is a form of quantum computing that uses Hamiltonian minimization to solve problems. 
+       The adiabatic theorem states that if a quantum system is slowly driven through a change in its Hamiltonian, 
+       then it will remain in its ground state. This means that by slowly changing the Hamiltonian of a quantum system, 
+       we can effectively find the ground state of the system, which can be used to solve problems.
+    For example, we can use AQC to solve the traveling salesman problem. The traveling salesman problem is the problem 
+       of finding the shortest possible route that visits a given set of cities. We can formulate this problem as a Hamiltonian, 
+       and then use AQC to find the ground state of the Hamiltonian. The ground state of the Hamiltonian will correspond to the shortest possible route.
+     </p>
+     <p style="text-align: justify;">
+        Below, we can see a simple Quantum Parameterized Circuit which is optimized to minimize this Cost Function:
+     </p>
+     <p style="text-align: center;">
+       $  Cost = \| F - 0.4 \|^{2}  $
+     </p>
+     <p style="text-align: justify;">
+       where $F$ is the return value of our circuit and the cost is defined to minimized MSE (Mean Square Error)!
+     </p>
+   </div>
+        <div style="display: flex;">
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">QML Circuit</figcaption>
+          <img src="/images/Quantum_Circuit_Draw.png" alt="QML Circuit">
+        </div>
+        <div style="flex: 45%; padding: 5px">
+          <figcaption style="text-align: center;">QML Circuit Optimization Cost VS Iteration</figcaption>
+          <img src="/images/Cost_vs_Iter.png" alt="QML Circuit Optimization Cost VS Iteration">
+        </div>
+      </div>
+  
+  For more details, visit this <a href="https://github.com/MohammadReza-Arani/Python_Projects/tree/main/Quantum_Machine_Learning" style=" color: #82d220;">Link</a>.
+</div>  
+  -->
+<hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
+<div id="Array_Opt">
+  <div style="text-align: center;">
+    <strong> Optimization of 1-D Array to reach Desired Pattern </strong>
+  </div>
+   <div align="justify;">
+     <p style="text-align: justify;">
+       Array Optimization is one of those problems that requires a new direction to look at in order to find innovative ways to reach the optimal solution. 
+      Facing this problem with a new approach based on the Optimization of a 
+       specific cost function enables us to tackle this issue and address the problem in a wide area considering physical and practical constraints.
+     </p>
+     <p style="text-align: justify;">
+       Here, I present a 1-D Array Optimization approach based on the minimization of this cost function:
+     </p>
+     <p style="text-align: center;">
+       $ J = \|AF(\theta)-g(\theta)\|^{2} $
+     </p>
+     <p style="text-align: justify;">
+       By considering our desired pattern $g(\theta)$ we can optimize array parameters to minimize the MSE (Mean Square Error) between 
+       the desired pattern and the array factor within the feasible set of answers. Also, we can reach the minimum number of elements after 
+       this optimization by applying a Convex Optimization problem to get a sparse answer with the desired SLL (Side Lobe Level).  
+     </p>
+     <p style="text-align: justify;">
+       Below we can see a comparison between optimized and uniform arrays in terms of received power calculated by the Ferris equation in free space:
+     </p>
+    <figcaption style="text-align: center;">Comparison of Different Array Configurations</figcaption>
+    <img src="/images/Optimized_Array_VS_Uniform_XZ_Plane.png" alt="Comparison of Array COnfigs.">  
+    <figcaption style="text-align: center;">Simulation Results of 1-D Array Optimization</figcaption>
+    <img src="/images/Optimized_vs_Desired_Array_Pattern.jpg" alt="Simulation Results of 1-D Array Optimization">  
+     <p style="text-align: justify;">
+       More details will be published in the near future!
+     </p>
+   </div>  
+</div>
+  
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+  
+                                                                                      /* SideBar Config: */
+  .sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  
+</style>
+
+  
+</html>
+
+
+  
