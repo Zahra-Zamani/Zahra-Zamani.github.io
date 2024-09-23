@@ -124,7 +124,8 @@ redirect_from:
       effect of hyper parameters of a Neural Network and the underlying architecture as well as various metrics used to describe a model and its associated dataset.
     </p>
     <p style="text-align: justify;">
-      Moreover, I learned how to manipulate loss and classification accuracy by alternation of activation functions and architecture of the NN Dense model using Keras.
+      Moreover, I learned how to manipulate loss and classification accuracy by alternation of activation functions and architecture of the NN Dense model using Keras. 
+      For more information for this implementation check out my github repo <a href="https://github.com/zahra-zamani/Python_Projects/tree/main/MLP" style=" color: #82d220;">here</a>.
     </p>
     </div>
       <div style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
@@ -145,39 +146,34 @@ redirect_from:
 <hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
 <div id="DHN" style="background-color: rgb(153, 255, 255);">
   <div style="text-align: center;">
-    <strong> Slotted Substrate Integrated Waveguide Sensor </strong>
+    <strong> Discrete HopField Network [Image Recovery]</strong>
   </div>
    <div align="justify;">
      <p style="text-align: justify;">
-     The very edge of distant Communication in any system at any location is the System's Sensor providing Telecommunication thanks to Hertz's and Marconi's first Sensors!
+     Image Recovery problem has been addressed in numerous ways in recent years, but classical methods still are valid and useful when it comes to educational purposes.    
+     <em>Image Recovery Application are among hot topics in different scans including CT (Continuous Tomography)-Scan, MRI (Magnetic Resonance Imaging) and ...</em> 
      
-     <em>But why do we have so many different types of Sensors in different shapes and technology in the market?</em> 
-     
-     <em> What is the incentive to provide such a variety of Sensors in the market?</em>
+     <em> What are options when it comes to choosing a proper Image Recovery Algorithm?</em>
      </p>
      <p style="text-align: justify;">
-     It is the very physical constraints and expense that bring us to design and implement different Sensors for different applications. Sensors are specified mostly by some of the limited parameters yet, their materials, technology, and physical state may differ even with equal values in those parameters!
-
-     Consider dipole, Yagi-Uda, Patch Sensor, Reflective Sensor, Horn Sensor, and other widely used types of Sensor. When starting this project, we were faced with different options to use for autonomous vehicles' RF sensors, and I decided to choose reasonable ones and compare those simulated to find the best!
-
-     One of the options was to start from a Waveguide, put a slot on it, and design a leaky-wave Sensor. 
+     DHN can learn a single original Image and then tries to restore that image given the distorted version. In this simple example 
+       DHN is deployed to restore University of Tehran BW Image Logo using its learned original image. 
      </p>
      <p style="text-align: justify;">
-     However, with limited space and available area for the Sensor, I decided to continue the project by designing a conformal annular slotted waveguide Sensor. 
-     Following design rules and simulation, the result was satisfying and took us to the next level which was to turn this bulky expensive design into a low profile cheap but still useful Sensor. 
-     This is where I designed and Slotted substrate-integrated Annular Sensor at <strong>77GHz</strong> and simulated this unit in <strong>HFSS</strong>.
-     Below we can see some design steps and output patterns of such a Sensor. 
-     You can also see the presentation of my undergraduate project in this <a href="https://www.aparat.com/v/mVNgA" style=" color: #82d220;">Link</a>.
+     You may also check the python implementation in this <a href="https://github.com/zahra-zamani/Python_Projects/tree/main/DHN" style=" color: #82d220;">Link</a>.
        </p>
    </div>  
 
                                                                                 <!-- Begining of Gifs  --> 
+      <div style="display: block; margin-left: auto; margin-right: auto; width: 75%;">
+        <img src="/images/Projects/DHN_Initial.png" alt="Image Recovery App. of DHN">
+      </div>  
       <div style="display: flex;">
         <div style="flex: 45%; padding: 5px">
-          <img src="/images/Projects/Annular_SIW_Sensor_Design_HFSS.png" alt="77GHz Annular Slotted SIW Sensor Design">
+          <img src="/images/Projects/DHN_6k_Iters.png" alt="Performing DHN for 6000 Iterations">
         </div>
         <div style="flex: 45%; padding: 5px">
-          <img src="/images/Projects/Annular_SIW_Sensor_S11_HFSS.png" alt="S11 Parameter of ASSIW Sensor">
+          <img src="/images/Projects/DHN_30k_Iters.png" alt="Performing DHN for 30000 Iterations">
         </div>
       </div>
 </div>
