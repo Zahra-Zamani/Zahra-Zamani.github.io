@@ -182,47 +182,92 @@ redirect_from:
 <hr class="dotted" style="color: #82d220; height: 3px; background-color: #82d220; ">  
 <div id="Heart_Data" style="background-color: rgb(153, 204, 255);">
   <div style="text-align: center;">
-    <strong> Optimization: Quadratic Cost-Function  </strong>
+    <strong> Heart Data Mining & Processing  </strong>
   </div>
    <div align="justify;">
      <p style="text-align: justify;">
-       One of the Most impressive Optimization methods that comes in handy when dealing with various types of problems is the Gradient Descent Method Family. 
-       Both the Steepest Descent Method and the Newton Method are illustrated here in a simple problem to show their potential specifically in higher dimensions. 
+       Data Mining and Analysis has been widely used in Medical Applications after their efficiency and accuracy in diagnosis has 
+       helped patients in all over the world to restore their health by in time diagnosis. COnsidering my interets and devotion in helping other,my Bachelor's project title is 
+       <strong>"Identification of significant features and heart data mining techniques in predicting disease"</strong>.
      </p>
      <p style="text-align: justify;">
-       Consider the problem of finding the minimum value of such a function:
-     </p>
-     <p style="text-align: center;">
-       $ f(x) = x_{1}^{2}+x_{2}^{2}-4x_{1}-6x_{2}+13+x_{1}x_{2}  $  
+       Consider the problem of finding the best kth-features to be extracted from a Heart Dataset. It is necessary to perform various analysis to obtain best kth-features to determine a specific Heart disease for all the patients.
+       The importance of this problem is that it helps to alleviate the curse of dimensionality in Machine Learning and Neural Network Models by reducing data size using a proper feature selection algorithm.
      </p>
      <p style="text-align: justify;">
-       We can use Analytical differentiation to find its minimum as far as the function is Convex meaning the local minimum is the same as the global minimum. 
-       Instead, we use GD to find its solution to test this method and visualize the result for better understanding.
-     </p>
-     <p>
-       Below we can see the problem illustration:
-     </p>
+       In this project, 303 Records with 13 columns representing features is used and Data is given to <strong>RapidMiner Studio</strong> to extract feature combinations and then perform the Machine Learning model processes.
+       Finally, 7 different Classifers were deployed to evaluate classification algorithms performance and find the best features combination. 
+       Classifiers used are:
+        <ul>
+        <li>K-NN Classifer</li>
+        <li>Decision Tree</li>
+        <li>Naive Bayes</li>
+        <li>Logistic Regression</li>
+        <li>Vote</li>
+        <li>SVM (Support Vector Machine)</li>
+        <li>Neural Network</li>
+      </ul> 
+   In this manner, 8100 feature combination were tested cumulatively.  
+   </p>
      <div>
-        <figcaption style="text-align: center;">Problem Cost Function</figcaption>
-       <img src="/images/Projects/Optimization_Curvature_GD_BSS.png" alt="Problem Cost Function">
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Programming Language</th>
+      <th style="text-align: center;">Proficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Technique</td><td>Accuracy</td><td>Precision</td><td>Best Features</td></tr>
+    <tr>
+      <td>SVM</td>
+      <td style="width: 90%;text-align: center; background-color: #999900">86.8%</td>
+      <td style="width: 90%;text-align: center; background-color: #999900">86.86%</td>
+      <td style="width: 90%;text-align: center; background-color: #999900">age, sex, cp, chol, fbs, exang, oldpeak,
+slope, ca</td>
+    </tr>
+    <tr>
+      <td>Vote</td>
+      <td style="width: 90%;text-align: center; background-color: #ffba00">86.2%</td>
+      <td style="width: 90%;text-align: center; background-color: #ffba00">90.2%</td>
+      <td style="width: 90%;text-align: center; background-color: #ffba00">sex, cp, fbs, thalach, exang, slope, ca, thal</td>
+    </tr>
+    <tr>
+      <td>Naive Bayes</td>
+      <td style="width: 40%;text-align: center; background-color:  #d1f100">85.86%</td>
+      <td style="width: 40%;text-align: center; background-color:  #d1f100">87.9%</td>
+      <td style="width: 40%;text-align: center; background-color:  #d1f100">sex, cp, thalach, exang, oldpeak, ca</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">85.82%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">86.42%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">age, sex, cp, chol, restecg, oldpeak, slope,
+ca, thal</td>
+    </tr>
+    <tr>
+      <td>Neural Network</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">84%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">86.4%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">sex, cp, trestbps, fbs, restecg, thalach,
+exang, oldpeak, slope, ca, thal</td>
+    </tr>
+    <tr>
+      <td>k_NN</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">82.4%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">95%</td>
+      <td style="width: 60%;text-align: center; background-color: #d1f100">sex, cp, fbs, restecg, oldpeak, ca, thal</td>
+    </tr>
+    <tr>
+      <td>Decision Tree</td>
+      <td style="width: 40%;text-align: center; background-color: #ffba00">82%</td>
+      <td style="width: 40%;text-align: center; background-color: #ffba00">95%</td>
+      <td style="width: 40%;text-align: center; background-color: #ffba00">sex, cp, fbs, restecg, oldpeak, ca, thal</td>
+    </tr>
+  </tbody>
+</table>
      </div>
-     <p>
-       After Applying GD and Newton we can see their results here:
-     </p>
-       <div style="display: flex;">
-        <div style="flex: 45%; padding: 5px">
-          <figcaption style="text-align: center;">Newton Method</figcaption>
-          <img src="/images/Projects/Newton_GD_Contours.png" alt="Newton Method">
-        </div>
-        <div style="flex: 45%; padding: 5px">
-          <figcaption style="text-align: center;">Steepest Descent Method</figcaption>
-          <img src="/images/Projects/Steepest_Descent_Contours.png" alt="Steepest Descent Method">
-        </div>
-      </div>
-     For more details, visit this <a href="https://github.com/MohammadReza-Arani/MATLAB_Projects/tree/main/BSS/Hw1_Sparse_Dictionary_Learning_%26_Optimization" style=" color: #82d220;">Link</a>.
-   </div>
-
-  
+    </div>
 </div>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
